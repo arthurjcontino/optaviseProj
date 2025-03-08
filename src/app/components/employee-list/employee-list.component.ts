@@ -34,7 +34,19 @@ export class EmployeeListComponent implements OnInit {
       this.departments = data;
     });
   }
-
+  getMaritalClass(status: string): string {
+    switch (status) {
+      case 'Single':
+        return 'single';
+      case 'Married':
+        return 'married';
+      case 'Unknown':
+        return 'Unknown';
+      default:
+        return '';
+    }
+  }
+  
   onDepartmentSelected(deptId: number | 'all') {
     this.selectedDepartment = deptId;
     this.applyFilter();

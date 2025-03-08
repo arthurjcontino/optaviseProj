@@ -1,6 +1,6 @@
 .employee-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 10px;
     padding: 10px;
   }
@@ -15,19 +15,23 @@
   }
   
   .single {
-    background-color: blue;
-  }
-  
-  .married {
     background-color: green;
   }
   
+  .married {
+    background-color: red;
+  }
+  
   .Unknown {
-    background-color: orange;
+    background-color: yellow;
   }
   
-  .widowed {
-    background-color: gray;
-  }
-  
-  
+.marital-label {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+

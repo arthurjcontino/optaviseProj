@@ -29,9 +29,13 @@
             {{ employee.maritalStatus }}
           </span>
         </td>
+        <td>
+          <span class="vip-label" *ngIf="isVip(employee)">VIP</span>
+        </td>
       </tr>
     </tbody>
   </table>
   
 
 </div>
+      
