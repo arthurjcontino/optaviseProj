@@ -1,0 +1,9 @@
+
+<div class="container">
+<label for="department">Filter by Department:</label>
+<select id="department" (change)="onSelectDepartment($event)">
+  <option value="all">All Departments</option>
+  <option *ngFor="let dept of departments" [value]="dept.id">{{ dept.name }}</option>
+</select>
+</div>
+

@@ -1,0 +1,15 @@
+{
+    "employees": [
+      { "id": 1, "name": "Jon Snow", "position": "Lord Commander", "hireDate": "2016-01-15", "departmentId": 1 },
+      { "id": 2, "name": "Tyrion Lannister", "position": "Hand of the King", "hireDate": "2019-07-12", "departmentId": 2 },
+      { "id": 3, "name": "Daenerys Targaryen", "position": "Queen of Dragons", "hireDate": "2015-03-30", "departmentId": 3 },
+      { "id": 4, "name": "Arya Stark", "position": "Faceless Assassin", "hireDate": "2021-10-10", "departmentId": 1 },
+      { "id": 5, "name": "Brienne of Tarth", "position": "Knight of the Seven Kingdoms", "hireDate": "2018-06-05", "departmentId": 2 }
+    ],
+    "departments": [
+      { "id": 1, "name": "The Night’s Watch" },
+      { "id": 2, "name": "King’s Landing" },
+      { "id": 3, "name": "House Targaryen" }
+    ]
+  }
+  

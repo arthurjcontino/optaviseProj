@@ -1,0 +1,13 @@
+<my-prefix-department-filter 
+  [departments]="departments" 
+  (departmentSelected)="onDepartmentSelected($event)">
+</my-prefix-department-filter>
+
+<div class="employee-container">
+  <my-prefix-employee-card 
+    *ngFor="let employee of filteredEmployees | sortByDate" 
+    [employee]="employee">
+  </my-prefix-employee-card>
+
+
+</div>
