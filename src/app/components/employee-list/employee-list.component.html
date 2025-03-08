@@ -21,7 +21,7 @@
     <tbody>
       <tr *ngFor="let employee of employees">
         <td>{{ employee.name }}</td>
-        <td>{{ employee.department }}</td>
+        <td>{{ employee.departmentId}}</td>
         <td>{{ employee.hireDate }}</td>
         <td *ngIf="isVip(employee)">VIP</td>
         <td>
