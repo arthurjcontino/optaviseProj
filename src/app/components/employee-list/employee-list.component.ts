@@ -45,4 +45,7 @@ export class EmployeeListComponent implements OnInit {
       ? [...this.employees]
       : this.employees.filter(emp => emp.departmentId === this.selectedDepartment);
   }
+  isVip(employee: Employee): boolean {
+    return new Date(employee.hireDate).getFullYear() < 2020;
+  }
 }

@@ -4,4 +4,30 @@
     gap: 10px;
     padding: 10px;
   }
+  .status-label {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    text-transform: capitalize;
+  }
+  
+  .single {
+    background-color: blue;
+  }
+  
+  .married {
+    background-color: green;
+  }
+  
+  .divorced {
+    background-color: orange;
+  }
+  
+  .widowed {
+    background-color: gray;
+  }
+  
   

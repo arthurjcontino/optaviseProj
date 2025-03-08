@@ -8,6 +8,30 @@
     *ngFor="let employee of filteredEmployees | sortByDate" 
     [employee]="employee">
   </my-prefix-employee-card>
-
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Hire Date</th>
+        <th>VIP</th>
+        <th>Marital Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.name }}</td>
+        <td>{{ employee.department }}</td>
+        <td>{{ employee.hireDate }}</td>
+        <td *ngIf="isVip(employee)">VIP</td>
+        <td>
+          <span class="status-label {{ employee.maritalStatus | lowercase }}">
+            {{ employee.maritalStatus }}
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
 
 </div>

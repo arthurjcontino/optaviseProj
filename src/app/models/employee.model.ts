@@ -4,5 +4,6 @@ export interface Employee {
     position: string;
     hireDate: string;
     departmentId: number;
+    maritalStatus: 'Single' | 'Married' | 'Uknown' ;
   }
   

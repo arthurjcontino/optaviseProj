@@ -1,8 +1,8 @@
 {
     "employees": [
-      { "id": 1, "name": "Jon Snow", "position": "Head Of Night Watch", "hireDate": "2022-01-15", "departmentId": 1 },
+      { "id": 1, "name": "Jon Snow", "position": "Head Of Night Watch", "hireDate": "2022-01-15",  "maritalStatus": "Married", "departmentId": 1 },
       { "id": 2, "name": "Petryr Baelish", "position": "Accountant", "hireDate": "2019-07-12", "departmentId": 2 },
-      { "id": 3, "name": "Daenerys Targaryen", "position": "President and CEO", "hireDate": "2015-03-30", "departmentId": 3 },
+      { "id": 3, "name": "Daenerys Targaryen", "position": "President and CEO", "hireDate": "2015-03-30", "maritalStatus": "Married", "departmentId": 3 },
       { "id": 4, "name": "Name", "position": "Department", "hireDate": "2021-10-10", "departmentId": 4 },
       { "id": 5, "name": "Name", "position": "Department", "hireDate": "2021-10-10", "departmentId": 4 },
       { "id": 6, "name": "Name", "position": "Department", "hireDate": "2021-10-10", "departmentId": 4 },
