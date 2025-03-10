@@ -4,7 +4,7 @@ import { Department } from '../../models/department.model';
 import { CommonModule } from '@angular/common';
 import { ApiService } from '../../services/api.service';
 import { Employee } from '../../models/employee.model';
-import { EmployeeCardComponent } from '../employee-card/employee-card.component';
+import { EmployeeCardComponent } from '../employee-card/employee-card.component'; 
 import { DepartmentFilterComponent } from '../department-filter/department-filter.component';
 import { SortByDatePipe } from '../../pipes/sort-by-date.pipe';
 
@@ -40,10 +40,8 @@ export class EmployeeListComponent implements OnInit {
         return 'single';
       case 'Married':
         return 'married';
-      case 'Unknown':
-        return 'Unknown';
-      default:
-        return '';
+        default:'Unknown';
+        return 'Unknown'
     }
   }
   
